@@ -5,29 +5,27 @@
 *::after {
   padding: 0;
   margin: 0;
-
   box-sizing: border-box;
 }
 
 body {
   height: 100vh;
   padding: 35px;
-
-  background: rgb(148, 141, 141);
-  color: #131313;
+  background: rgb(155, 53, 196);
+  color: #000000;
   font-family: "Montserrat", sans-serif;
 }
 h1 {
   margin: 15px 0;
   font-weight: 900;
-  font-size: 28px;
+  font-size: 45px;
   text-align: center;
 }
 input {
   transition: 0.5s ease-in-out;
   margin: 10px 0;
-  font-size: 18px;
-  padding: 5px;
+  font-size: 20px;
+  padding: 10px;
   background: rgba(0, 0, 0, 0.11);
   border: none;
 }
@@ -40,7 +38,7 @@ input {
 }
 button {
   margin: 5px;
-  padding: 10px;
+  padding: 15px;
   border: none;
   font-size: 18px;
   transition: 0.5s ease-in-out;
@@ -78,7 +76,7 @@ form button {
   background: rgb(253, 143, 17);
 }
 .resume {
-  background: rgb(131, 10, 252);
+  background: rgb(187, 45, 144);
   color: white;
 }
 .clock {
