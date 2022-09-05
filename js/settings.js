@@ -26,11 +26,11 @@ pauseBtn.addEventListener("click", () => {
   if (paused) {
     paused = false;
     initial = setTimeout("decremenT()", 60);
-    pauseBtn.textContent = "pause";
+    pauseBtn.textContent = "Pause";
     pauseBtn.classList.remove("resume");
   } else {
     clearTimeout(initial);
-    pauseBtn.textContent = "resume";
+    pauseBtn.textContent = "Resume";
     pauseBtn.classList.add("resume");
     paused = true;
   }
