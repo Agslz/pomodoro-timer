@@ -17,6 +17,10 @@ document.querySelector(".reset").addEventListener("click", () => {
   setProgress(0);
   mindiv.textContent = 0;
   secdiv.textContent = 0;
+  const firstInput = document.getElementById("focusTime");
+  const secondInput = document.getElementById("breakTime");
+  firstInput.value = "";
+  secondInput.value = "";
 });
 
 pauseBtn.addEventListener("click", () => {
